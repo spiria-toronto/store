@@ -1,24 +1,9 @@
-# README
+# DevBBQ Store
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[![Code Climate](https://codeclimate.com/github/devbbq/store/badges/gpa.svg)](https://codeclimate.com/github/devbbq/store)
+[![Test Coverage](https://codeclimate.com/github/devbbq/store/badges/coverage.svg)](https://codeclimate.com/github/devbbq/store/coverage)
+[![Issue Count](https://codeclimate.com/github/devbbq/store/badges/issue_count.svg)](https://codeclimate.com/github/devbbq/store)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is an opensource ecommerce store using Solidus that allows people to purchase brand merchandise online.
+Why?
+Because DevBBQ is awesome and we'd love for you to have some of our swag :D
