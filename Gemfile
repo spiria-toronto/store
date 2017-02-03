@@ -19,6 +19,13 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 
+# Solidus Hacks :(
+gem 'i18n', '~> 0.7.0'
+gem 'nokogiri', '~> 1.6.0'
+
+gem 'solidus', '~> 2.1'
+gem 'solidus_auth_devise', '~> 1.6.2'
+
 group :development, :test do
   gem 'byebug', platform: :mri
 end
