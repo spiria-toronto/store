@@ -26,13 +26,21 @@ gem 'nokogiri', '~> 1.6.0'
 gem 'solidus', '~> 2.1'
 gem 'solidus_auth_devise', '~> 1.6.2'
 
-group :development, :test do
-  gem 'byebug', platform: :mri
-end
-
 group :development do
   gem 'listen', '~> 3.0.5'
 
   gem 'spring'
+  gem 'spring-commands-rspec'
   gem 'spring-watcher-listen', '~> 2.0.0'
+end
+
+group :test do
+  gem 'database_cleaner'
+  gem 'rspec-rails', '~> 3.5'
+end
+
+group :development, :test do
+  gem 'byebug', platform: :mri
+  gem 'factory_girl_rails'
+  gem 'faker'
 end
