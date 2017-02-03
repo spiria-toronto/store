@@ -23,8 +23,7 @@ gem 'turbolinks', '~> 5'
 gem 'i18n', '~> 0.7.0'
 gem 'nokogiri', '~> 1.6.0'
 
-gem 'solidus_backend', '~> 2.1'
-gem 'solidus_sample', '~> 2.1'
+gem 'solidus', '~> 2.1'
 gem 'solidus_auth_devise', '~> 1.6.2'
 
 group :development, :test do
