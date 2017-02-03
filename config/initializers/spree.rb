@@ -52,6 +52,11 @@ Spree.config do |config|
   # )
 end
 
+Spree::Frontend::Config.configure do |config|
+  config.use_static_preferences!
+  config.locale = 'en'
+end
+
 Spree::Backend::Config.configure do |config|
   config.use_static_preferences!
 
@@ -64,4 +69,6 @@ Spree::Api::Config.configure do |config|
   config.requires_authentication = true
 end
 
-Spree.user_class = "Spree::LegacyUser"
+Spree::Auth::Config[:confirmable] = true
+
+Spree.user_class = "Spree::User"
